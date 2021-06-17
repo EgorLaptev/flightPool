@@ -1,0 +1,15 @@
+.profile-info {
+    min-height: 50vh;
+    padding: 0 0 100px 0;
+    font-size: 1.3em;
+}
+
+.profile-info__list {
+    background-color: #111;
+    padding: 25px;
+    color: white;
+}
+
+.profile-info__item {
+    margin: 25px 0;
+}

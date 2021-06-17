@@ -1,0 +1,46 @@
+.container {
+    min-height: 50vh;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 6em;
+    color: #111;
+}
+
+.login-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.login-form input {
+    padding: 20px;
+    border: 3px solid #111;
+    background-color: #111;
+    color: white;
+}
+
+.login-form__submit {
+    background-color: transparent !important;
+    color: #111111 !important;
+    cursor: pointer;
+    transition: .5s;
+    grid-column: 1 / -1;
+}
+
+.login-form__submit:hover {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 600px){
+    .login-form {
+        grid-template-columns: 1fr;
+    }
+}

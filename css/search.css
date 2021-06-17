@@ -1,0 +1,27 @@
+.search-results {
+    min-height: 50vh;
+    padding: 50px 0 150px 0;
+}
+
+.search-results__item {
+    background-color: #111;
+    padding: 50px;
+    margin: 20px 0;
+    color: white;
+    font-size: 1.2em;
+}
+
+.search-results__info {
+    margin: 20px 0;
+}
+
+.search-results__book {
+    border: none;
+    background-color: white;
+    outline: none;
+    color: #111;
+    padding: 10px 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+}

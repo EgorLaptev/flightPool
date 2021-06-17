@@ -1,0 +1,64 @@
+.seats {
+    padding: 0 0 100px 0;
+    min-height: 50vh;
+}
+
+.seats .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seats__table {
+    border: 3px solid #111;
+    padding: 25px;
+    margin-bottom: 75px;
+    color: #ddd;
+    background-color: #444;
+}
+
+.seats__table td {
+    padding: 25px;
+}
+
+.seats__table td:not(:first-child) {
+    background-color: #222;
+}
+
+.seats__table td:hover:not(:first-child) {
+    background-color: #111;
+}
+
+
+.seats__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.seats__form input {
+    padding: 10px 20px;
+    border: 3px solid #111;
+    background: #111;
+    color: white;
+}
+
+.seats__submit {
+    grid-column: 1/-1;
+    background-color: transparent !important;
+    color: #111 !important;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.seats__submit:hover {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 400px) {
+    .seats__table {
+        transform: scale(0.75);
+    }
+}

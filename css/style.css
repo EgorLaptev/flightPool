@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-size: 6em;
+    color: #111;
+    text-align: center;
+    word-break: break-all;
+}
+
+input {
+    outline: none;
+    font-size: 1.4em;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__link {
+    padding: 5px;
+    margin: 0 10px;
+    transition: .5s;
+    font-size: 1.1em;
+}
+
+.menu__link:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 100px;
+}
+
+/* Header */
+.header {
+    height: 40px;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.header__logo {
+    font-size: 1.7em;
+    color: white;
+    user-select: none;
+}
+
+.header__menu {
+    flex-direction: row;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #111;
+    padding: 200px 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__phone {
+    font-size: 1.5em;
+}
+
+.footer__menu {
+     flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__menu a {
+    margin: 10px 0;
+}
+
+.footer__copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+    background-color: #222;
+    text-align: center;
+}
+
+
+@media screen  and (max-width: 600px) {
+    h1 {
+        font-size: 5em;
+    }
+    .title {
+        font-size: 3em;
+    }
+    .header {
+        justify-content: center;
+    }
+    .header__logo {
+        display: none;
+    }
+}

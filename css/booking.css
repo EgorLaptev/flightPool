@@ -1,0 +1,35 @@
+
+
+.bookings {
+    min-height: 50vh;
+    padding: 75px 0 100px 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+.bookings .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookings__list {
+    width: 100%;
+    padding: 75px;
+    background-color: #111;
+}
+
+.bookings__item {
+    margin: 25px 0;
+}
+
+.bookings__button {
+    padding: 10px 25px;
+    background-color: #fff;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
